@@ -1,0 +1,32 @@
+npm install
+npm run dev
+npm install react react-dom
+npm install babel-loader @babel/core @babel/preset-env @babel/preset-react
+
+//it depdensyarn
+yarn
+yarn add css-loader style-loader
+yarn add --save-dev style-loader
+yarn add sass-loader sass webpack --save-dev
+npm install file-loader --save-dev
+npm install --save-dev html-loader
+
+//for config
+yarn add mini-css-extract-plugin
+
+//cache buster 
+new MiniCssExtractPlugin({ filename: "main.[hash].css" })
+bundle.[hash].js
+npm add mini-css-extract-plugin
+
+//para di mabasa yung html sa dist and itatago
+yarn add html-webpack-plugin
+
+//magbbura ng css and js file
+yarn add clean-webpack-plugin
+
+//value kinukuha nya para sa ginagawa mo
+yarn add webpack-manifest-plugin
+
+//para sa preset-env mga browsers na luma version
+yarn add core-js regenerator-runtime
